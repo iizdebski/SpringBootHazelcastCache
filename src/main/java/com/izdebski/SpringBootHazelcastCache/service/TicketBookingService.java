@@ -1,7 +1,7 @@
-package com.izdebski.SpringBootCache.service;
+package com.izdebski.SpringBootHazelcastCache.service;
 
-import com.izdebski.SpringBootCache.dao.TicketBookingDao;
-import com.izdebski.SpringBootCache.entities.Ticket;
+import com.izdebski.SpringBootHazelcastCache.dao.TicketBookingDao;
+import com.izdebski.SpringBootHazelcastCache.entities.Ticket;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;

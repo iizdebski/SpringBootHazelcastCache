@@ -1,5 +1,6 @@
-package com.izdebski.SpringBootCache.entities;
+package com.izdebski.SpringBootHazelcastCache.entities;
 
+import java.io.Serializable;
 import java.util.Date;
 
 import javax.persistence.Column;
@@ -11,7 +12,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="ticket")
-public class Ticket {
+public class Ticket implements Serializable {
 
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)

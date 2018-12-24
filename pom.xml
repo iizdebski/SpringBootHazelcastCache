@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.izdebski</groupId>
-	<artifactId>SpringBootCaffeineCache</artifactId>
+	<artifactId>SpringBootHazelcastCache</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringBootInfinispanCache</name>
+	<name>SpringBootHazelcastCache</name>
 	<description>Spring Boot Infinispan Cache</description>
 
 	<properties>
@@ -28,12 +28,12 @@
 			<artifactId>spring-boot-starter-cache</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.infinispan</groupId>
-			<artifactId>infinispan-jcache</artifactId>
+			<groupId>com.hazelcast</groupId>
+			<artifactId>hazelcast</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.infinispan</groupId>
-			<artifactId>infinispan-spring4-embedded</artifactId>
+			<groupId>com.hazelcast</groupId>
+			<artifactId>hazelcast-spring</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -73,5 +73,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>

@@ -1,5 +1,4 @@
-package com.izdebski.SpringBootCache;
-
+package com.izdebski.SpringBootHazelcastCache;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,10 +6,10 @@ import org.springframework.cache.annotation.EnableCaching;
 
 @SpringBootApplication
 @EnableCaching
-public class SpringBootInfinispanCacheApplication {
+public class SpringBootHazelcastCacheApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootInfinispanCacheApplication.class, args);
+		SpringApplication.run(SpringBootHazelcastCacheApplication.class, args);
 
 	}
 }
