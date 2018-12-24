@@ -1,4 +1,4 @@
-SpringBoot-Cache
+SpringBootInfinispanCache
 
 http://localhost:8080/metrics
 

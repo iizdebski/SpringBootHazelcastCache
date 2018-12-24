@@ -7,10 +7,10 @@ import org.springframework.cache.annotation.EnableCaching;
 
 @SpringBootApplication
 @EnableCaching
-public class SpringBootCaffeineCacheApplication {
+public class SpringBootInfinispanCacheApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootCaffeineCacheApplication.class, args);
+		SpringApplication.run(SpringBootInfinispanCacheApplication.class, args);
 
 	}
 }
