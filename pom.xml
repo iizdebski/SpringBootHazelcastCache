@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.izdebski</groupId>
-	<artifactId>SpringBootSimpleCacheAutoConfigurable</artifactId>
+	<artifactId>SpringBootCaffeineCache</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringBootSimpleCacheAutoConfigurable</name>
-	<description>Spring Boot Cache</description>
+	<name>SpringBootCaffeineCache</name>
+	<description>Spring Boot Caffeine Cache</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -28,9 +28,8 @@
 			<artifactId>spring-boot-starter-cache</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.google.guava</groupId>
-			<artifactId>guava</artifactId>
-			<version>23.0</version>
+			<groupId>com.github.ben-manes.caffeine</groupId>
+			<artifactId>caffeine</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
