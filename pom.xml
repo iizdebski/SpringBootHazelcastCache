@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.izdebski</groupId>
-	<artifactId>SpringBootCache</artifactId>
+	<artifactId>SpringBootSimpleCacheAutoConfigurable</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringBootCache</name>
+	<name>SpringBootSimpleCacheAutoConfigurable</name>
 	<description>Spring Boot Cache</description>
 
 	<properties>

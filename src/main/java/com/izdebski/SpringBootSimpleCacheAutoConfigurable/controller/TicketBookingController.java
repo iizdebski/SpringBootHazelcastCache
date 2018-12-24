@@ -1,7 +1,7 @@
-package com.izdebski.SpringBootCache.controller;
+package com.izdebski.SpringBootSimpleCacheAutoConfigurable.controller;
 
-import com.izdebski.SpringBootCache.entities.Ticket;
-import com.izdebski.SpringBootCache.service.TicketBookingService;
+import com.izdebski.SpringBootSimpleCacheAutoConfigurable.entities.Ticket;
+import com.izdebski.SpringBootSimpleCacheAutoConfigurable.service.TicketBookingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;

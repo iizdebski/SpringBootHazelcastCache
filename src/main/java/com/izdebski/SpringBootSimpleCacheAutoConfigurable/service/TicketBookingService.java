@@ -1,7 +1,7 @@
-package com.izdebski.SpringBootCache.service;
+package com.izdebski.SpringBootSimpleCacheAutoConfigurable.service;
 
-import com.izdebski.SpringBootCache.dao.TicketBookingDao;
-import com.izdebski.SpringBootCache.entities.Ticket;
+import com.izdebski.SpringBootSimpleCacheAutoConfigurable.dao.TicketBookingDao;
+import com.izdebski.SpringBootSimpleCacheAutoConfigurable.entities.Ticket;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;

@@ -1,4 +1,4 @@
-package com.izdebski.SpringBootCache;
+package com.izdebski.SpringBootSimpleCacheAutoConfigurable;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,14 +9,9 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 @EnableCaching
-public class SpringBootCacheApplication {
+public class SpringBootSimpleCacheAutoConfigurableApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootCacheApplication.class, args);
-	}
-
-	@Bean
-	public CacheManager cacheManager(){
-		return new ConcurrentMapCacheManager("ticketsCache");
+		SpringApplication.run(SpringBootSimpleCacheAutoConfigurableApplication.class, args);
 	}
 }

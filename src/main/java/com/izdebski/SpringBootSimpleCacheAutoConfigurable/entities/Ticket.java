@@ -1,4 +1,4 @@
-package com.izdebski.SpringBootCache.entities;
+package com.izdebski.SpringBootSimpleCacheAutoConfigurable.entities;
 
 import java.util.Date;
 
