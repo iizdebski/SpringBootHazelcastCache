@@ -14,8 +14,8 @@ public class TicketBookingService {
     @Autowired
     private TicketBookingDao ticketBookingDao;
 
-    @Cacheable(value="ticketsCache",key="#ticketId", unless="#result==null")
-    public Ticket getTicketById(Integer ticketId) {
+    @Cacheable(value="ticketsCache",key="#ticketId")
+    public Ticket getTicketById(Integer ticketId){
         return ticketBookingDao.findOne(ticketId);
     }
 
