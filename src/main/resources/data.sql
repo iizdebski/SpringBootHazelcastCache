@@ -1,0 +1,3 @@
+INSERT INTO ticket(passenger_name,booking_date,source_station,dest_station,email) VALUES('Petro','2017/07/14','Kyiv','Malorka','petro.s2021@yahoo.com');
+INSERT INTO ticket(passenger_name,booking_date,source_station,dest_station,email) VALUES('Oksana','2017/07/14','Lviv','Ibiza','oksana.s2022@yahoo.com');
+INSERT INTO ticket(passenger_name,booking_date,source_station,dest_station,email) VALUES('Sveta','2017/07/14','Odesa','Corsica','sveta.s20123@yahoo.com');
